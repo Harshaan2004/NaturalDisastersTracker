@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import locationIcon from '@iconify/icons-mdi/snowflake-variant'
+import locationIcon from '@iconify/icons-mdi/terrain'
 
 // This component is for the snowflake icon placement on the map
 function IcebergMarker({ lat, lng, onClick }) {
