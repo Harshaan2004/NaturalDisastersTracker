@@ -35,7 +35,7 @@ const Mapping = ({ eventData, center = { lat: 51.508045, lng: -0.128217 }, zoom 
         <div className='map'>
         <GoogleMapReact
             // Google Maps API key and initial map center position and zoom level
-            bootstrapURLKeys={{ key: 'AIzaSyDqMOjMATuBp1a9pKNtczvWgFhTYOJy0LM' }}
+            bootstrapURLKeys={{ key: 'YOUR-GOOGLE-MAPS-API-KEY' }}
             defaultCenter={center}
             defaultZoom={zoom}
         >
